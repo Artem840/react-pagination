@@ -70,10 +70,10 @@ The usePagination function has 2 parameters. The list that will be paged, and a 
 Once usePagination is called, it returns the variables:
 - isPaginating: Boolean value that is set to true if the number of items in the list exceeds the total items per page. It's useful to hide (or not render) paginator components (as can be seen in the example).
 - currentPage: The number of the page that is currently selected.
-- setCurrentPage: Function that receives a the number of the page. When this function is called, currentPage is updated to the selected page, and the pageItems list is also updated with the data belonging to the selected page.
+- setCurrentPage: Function that receives the number of the page. When this function is called, currentPage is updated to the selected page, and the pageItems list is also updated with the data belonging to the selected page.
 - pageItems: List of the items belonging to the page. It is the data that will be shown in the page.
 - setItemList: Function that is used to update the list that is being paged. The complete list is set on this function, and only a "page" of this list is available on the pageItems.
-- totalPages: Total number of pages so this information can be diplayed to the user.
+- totalPages: Total number of pages so this information can be displayed to the user.
 
 ## Paginator component
 
