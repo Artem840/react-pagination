@@ -8,6 +8,8 @@ The objective is to create a reusable piece of code that can apply to many of th
 
 This is a simple project created using create-react-app, just to serve as a reference. It's free to copy and apply to your own needs.
 
+More details about the code can be found in the article: [Custom React hook for pagination](https://medium.com/@marcos.deaguiar/custom-react-hook-for-pagination-81d55d5b1e75)
+
 ### Usage example
 
 ```typescript
